@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ================= HEADER & NAVIGATION ================= -->
+  <header>
+    <nav class="navbar">
+      <!-- Logo: Image + Text -->
+      <div class="logo">
+        <img src="images/logo.jpeg" alt="SangDev Logo">
+        <span>angDev</span>
+      </div>
+
+      <button id="themeToggle" class="btn" aria-label="Toggle theme">Dark Mode</button>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links">
+        <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#technical-skills">Technical Skills</a></li>
+        <li><a href="#soft-skills">Soft Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I’m <span>Sangay Wangmo</span></h1>
+      <h2>IT Teacher | Bachelor of Education in ICT</h2>
+      <p>Crafting digital experiences that merge creativity with technology.<br>
+         Specializing in modern Web Development and IT Knowledge.</p>
+         <!-- Call to Action Button -->
+         <a href="#contact" class="btn">Let’s Connect</a>
+    </div>
+    <!-- Profile Image -->
+    <div class="hero-img">
+      <img src="images/profile.png" alt="My Photo">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+      <img src="images/paro-dzong.jpg" alt="Paro Dzong" class="about-img" style="display: block; margin: 0 auto;">
+    <p>
+      I am a future educator from the peaceful village of Khangkhu in Paro, Bhutan.<br>
+      Inspired by my homeland, I am a proud daughter and friend who aspires to use my skills to educate and empower others.
+      <span id="dots">...</span>
+      <span id="more" style="display:none;">I believe in lifelong learning and aim to share knowledge that can bring positive change in my community and beyond. With a passion for technology and teaching, 
+      I hope to guide the next generation to become creative, confident, and responsible digital citizens. Living simple is my motto.</span>
+    </p>
+    <button id="myBtn" class="btn">Read More</button>
+  </section>
+
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <img src="images/samtse.png" alt="Samtse College of Education Logo" class="school-logo">
+        <strong>Bachelor of Education in ICT</strong> — Samtse College of Education (2023–2027)
+      </li>
+      <li>
+        <img src="images/norbu.png" alt="Norbu Academy Logo" class="school-logo">
+        <strong>High School</strong> — Norbu Academy, Bhutan
+      </li> 
+      <li>
+        <img src="images/chumigthang.png" alt="Chumigthang Middle Secondary School Logo" class="school-logo">
+        <strong>Middle School</strong> — Chumigthang Middle Secondary School, Bhutan
+      </li>
+      <li>
+        <img src="images/pasakha.png" alt="Pasakha Lower Secondary School Logo" class="school-logo">
+        <strong>Primary School</strong> — Pasakha Lower Secondary School
+      </li>
+    </ul>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section id="technical-skills" class="skills">
+    <h2>Technical Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-card">HTML & CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">Python</div>
+    </div>
+  </section>
+  <!-- Soft Skills Section -->
+  <section id="soft-skills" class="skills">
+    <h2>Soft Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-card">Teamwork</div>
+      <div class="skill-card">Problem Solving</div>
+      <div class="skill-card">Communication</div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">College Website</div>
+      <div class="project-card">Personal Website</div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:08230187.sce@rub.edu.bt">08230187.sce@rub.edu.bt</a></p>
+    <!-- Simple Contact Form -->
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 SangDev. All rights reserved.</p>
+  </footer>
+  
+  <button id="topBtn" title="Go to top" aria-label="Scroll to top">⬆</button>
+  <script src="script.js"></script>
+</body>
+</html>
